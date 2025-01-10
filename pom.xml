@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>bjl_network_core</artifactId>
+	<artifactId>bjl_net</artifactId>
 	<packaging>jar</packaging>
 	<name>Bringardner Java Library Network Core</name>
 	<groupId>us.bringardner</groupId>
@@ -56,7 +56,7 @@
 							<include>**/*</include>
 						</includes>
 						<merge>true</merge>
-						<repositoryName>BjlNetworkCore</repositoryName>
+						<repositoryName>BjlNet</repositoryName>
 						<repositoryOwner>tony-bringardner</repositoryOwner>
 						<server>github</server>
 					</configuration>
@@ -87,7 +87,7 @@
 		<repository>
 			<id>github</id>
 			<name>tony-bringardner</name>
-			<url>https://maven.pkg.github.com/tony-bringardner/BjlNetworkCore</url>
+			<url>https://maven.pkg.github.com/tony-bringardner/BjlNet</url>
 		</repository>
 
 	</distributionManagement>
@@ -104,6 +104,24 @@
 			<groupId>us.bringardner</groupId>
 			<artifactId>bjl_io</artifactId>
 			<version>0.1.0</version>
+		</dependency>
+
+	<!--
+		https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.11.4</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.11.4</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
