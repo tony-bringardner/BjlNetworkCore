@@ -102,7 +102,7 @@
 
 		<dependency>
 			<groupId>us.bringardner</groupId>
-			<artifactId>bjl_io</artifactId>
+			<artifactId>bjl_file_system</artifactId>
 			<version>0.1.0</version>
 		</dependency>
 
