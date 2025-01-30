@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>bjl_net</artifactId>
+	<artifactId>bjl_network_core</artifactId>
 	<packaging>jar</packaging>
 	<name>Bringardner Java Library Network Core</name>
 	<groupId>us.bringardner</groupId>
@@ -56,7 +56,7 @@
 							<include>**/*</include>
 						</includes>
 						<merge>true</merge>
-						<repositoryName>BjlNet</repositoryName>
+						<repositoryName>BjlNetworkCore</repositoryName>
 						<repositoryOwner>tony-bringardner</repositoryOwner>
 						<server>github</server>
 					</configuration>
@@ -87,7 +87,7 @@
 		<repository>
 			<id>github</id>
 			<name>tony-bringardner</name>
-			<url>https://maven.pkg.github.com/tony-bringardner/BjlNet</url>
+			<url>https://maven.pkg.github.com/tony-bringardner/BjlNetworkCore</url>
 		</repository>
 
 	</distributionManagement>
